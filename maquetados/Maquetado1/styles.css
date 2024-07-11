@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+.passport-form {
+    width: 80%; /* Ancho del formulario */
+    max-width: 1000px; /* Ancho máximo del formulario */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 40%;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group select {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.date-inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.date-inputs select {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
