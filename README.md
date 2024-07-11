@@ -1,6 +1,4 @@
 # Actividad-Maquetado
-# Información de la Actividad
-
 ## Escuela
  Universidad Tecnologica Metropolitana
 
